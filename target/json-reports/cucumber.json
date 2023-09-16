@@ -1,0 +1,76 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-16T18:30:46.503Z",
+        "line": 6,
+        "name": "Topic tablosundan name bilgisi update testi",
+        "description": "",
+        "id": "query04;topic-tablosundan-name-bilgisi-update-testi",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2991400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Database baglantisi kurulur.",
+            "match": {
+              "location": "stepDefinitions.DBstepDefinition.database_baglantisi_kurulur()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Update query\u0027si hazirlanip calistirilir",
+            "match": {
+              "location": "stepDefinitions.DBstepDefinition.update_query_si_hazirlanip_calistirilir()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Update isleminin yapildigi dogrulanir",
+            "match": {
+              "location": "stepDefinitions.DBstepDefinition.update_isleminin_yapildigi_dogrulanir()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Database baglantisi kapatilir.",
+            "match": {
+              "location": "stepDefinitions.DBstepDefinition.database_baglantisi_kapatilir()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@query04"
+          }
+        ]
+      }
+    ],
+    "name": "Query04",
+    "description": "",
+    "id": "query04",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/JDBC_Query04.feature",
+    "tags": []
+  }
+]

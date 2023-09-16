@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.368">
+    <testcase classname="Query04" name="Topic tablosundan name bilgisi update testi" time="0.095">
+        <system-out><![CDATA[* Database baglantisi kurulur...............................................passed
+* Update query'si hazirlanip calistirilir...................................passed
+* Update isleminin yapildigi dogrulanir.....................................passed
+* Database baglantisi kapatilir.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
